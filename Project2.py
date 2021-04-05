@@ -71,7 +71,7 @@ def get_search_links():
 
 
 def get_book_summary(book_url):
-    print(book_url)
+    #print(book_url)
     req  = requests.get(book_url)
     soup = BeautifulSoup(req.text, 'html.parser')
     # import pdb; pdb.set_trace()

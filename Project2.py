@@ -286,7 +286,7 @@ class TestCases(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    print(extra_credit("extra_credit.htm"))
+    # print(extra_credit("extra_credit.htm"))
     unittest.main(verbosity=2)
 
 
